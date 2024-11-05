@@ -22,7 +22,7 @@ function Card({ weather, toggle, setToggle }) {
 				{temp} {!toggle ? '°F' : '°C'}
 			</h2>
 			<button onClick={() => setToggle(!toggle)} className="card__button">
-				Change to{!toggle ? '°F' : '°C'}
+				Change to{!toggle ? '°C' : '°F'}
 			</button>
 		</div>
 	);
