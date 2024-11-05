@@ -1,0 +1,50 @@
+#root {
+	min-height: 100vh;
+	height: 100%;
+	background-image: url('/sky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	max-width: 380px;
+	width: 100%;
+	padding: 2em 1.5em;
+	background-color: #22222230;
+	-webkit-backdrop-filter: brightness(1) blur(5px);
+	backdrop-filter: brightness(1) blur(5px);
+	border-radius: 1.5em;
+	box-shadow: 0 0 10px 0 #bbdefb4a;
+	transition: box-shadow 0 0.25s;
+}
+
+.card:hover {
+	box-shadow: 0 0 25px 0 #bbdefb4a;
+}
+
+.card__title,
+.card__subtitle {
+	text-align: center;
+}
+
+.card__body {
+	display: flex;
+	align-items: center;
+}
+
+.card__temperature {
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 0.25em;
+}
+
+.card__button {
+	display: block;
+	margin: 0 auto;
+	background-color: #e1f5fe;
+	-webkit-backdrop-filter: brightness(1) blur(5px);
+	backdrop-filter: brightness(1) blur(5px);
+}
