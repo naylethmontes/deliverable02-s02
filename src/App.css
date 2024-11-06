@@ -44,7 +44,7 @@
 .card__button {
 	display: block;
 	margin: 0 auto;
-	background-color: #e1f5fe;
+	background-color: #aed6f1;
 	-webkit-backdrop-filter: brightness(1) blur(5px);
 	backdrop-filter: brightness(1) blur(5px);
 }

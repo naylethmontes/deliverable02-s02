@@ -13,7 +13,7 @@ import {
 } from './assets/images';
 import Card from './assets/components/Card';
 import url from './helpers/Url';
-import key from './Key';
+import key from './helpers/Key';
 
 const initialState = {
 	latitude: 0,
